@@ -95,9 +95,7 @@ body{
     font-size: 1.2em;
 }
 
-.location{
-    
-}
+
 
 .location p{
     margin: 0;
@@ -107,5 +105,14 @@ body{
     font-size: 0.8em;
 }
 
+input {
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: coral;
+    border: none;
+}
+input :hover{
+    font-size: 22px;
+    background-color: #721c24;
 
-
+}

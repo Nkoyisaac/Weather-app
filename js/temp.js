@@ -2,7 +2,7 @@ document.getElementById('weatherApp').addEventListener('submit', function(e) {
     e.preventDefault();
     var temperature = document.getElementById("temp").value;
 
-
+// condition statements on what to wear
     if(temperature >= 17 && temperature <= 40){
         document.getElementById("text").innerHTML = "Wear t-shirt, shorts and flip flops";
     }else if(temperature >= 11 && temperature <= 16 ){
